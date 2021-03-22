@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{AEGC2021}[2021/03/17 AEGC 2021 conference abstract]
 
-\LoadClass[9pt]{article}
+\LoadClass[9pt]{extarticle}
 
 
 \RequirePackage{fontspec} % used to specify custom nonlatex fonts, requires Xelatex compiler
@@ -50,8 +50,8 @@
  
 
 %  Define section heading format
-\titleformat{\section}[hang]{\bfseries\fontsize{10}{12}\selectfont}{}{0pt}{\centering\MakeUppercase}[]
-\titlespacing*{\section}{0}{*0}{*0}[]
+\titleformat{\section}[hang]{\bfseries\fontsize{10}{12}\selectfont}{}{0pt}{\centering\MakeUppercase}
+\titlespacing*{\section}{0pt}{*0}{*0}
 
 
 % set default font
